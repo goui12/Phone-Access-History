@@ -1,0 +1,22 @@
+# Local signing identity and password; retain locally for compatible updates.
+.signing/
+*.p12
+*.jks
+*.keystore
+.env
+.env.*
+*.env
+local.properties
+
+# Generated packages and build output.
+build/
+dist/
+*.apk
+*.apk.idsig
+*.class
+
+# Local editor and OS state.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
